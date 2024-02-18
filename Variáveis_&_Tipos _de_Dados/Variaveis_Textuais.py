@@ -14,7 +14,7 @@ print(apresentacao)
 
 
 # Fatiamenro Fixo #
-email = "miqueiaslopes93@gmail.com"
+email = "miqueias@gmail.com"
 
 print('0: ' + email[0])
 print('1: ' + email[1])
