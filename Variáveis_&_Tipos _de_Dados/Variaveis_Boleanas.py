@@ -3,8 +3,8 @@ usuario_cadastro = input("Usuario: ")
 senha_cadastro = str(input("Senha: "))
 
 # ----------BANCO DE DADOS ----------#
-usuario_email = "lucianalopes@gmail.com"
-senha = "te amo miqueias"
+usuario_email = "luciana@gmail.com"
+senha = "123456"
 
 # VALIDANDO USUARIO E SENHA
 usuario_igual = usuario_cadastro == usuario_email
