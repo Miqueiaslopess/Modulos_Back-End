@@ -1,0 +1,65 @@
+and:        Um operador lógico
+
+as:         Para criar um alias (apelido)
+
+assert:     Para depuração (debug)
+
+break:      Para sair de um loop
+
+class:      Para definir uma classe
+
+continue:   Para continuar para a próxima iteração de um loop
+
+def:        Para definir uma função
+
+del:        Para excluir um objeto
+
+elif:       Usado em declarações condicionais, equivalente a "else if"
+
+else:       Usado em declarações condicionais
+
+except:     Usado com exceções, indica o que fazer quando ocorre uma exceção
+
+False:      Valor booleano, resultado de operações de comparação
+
+finally:    Usado com exceções, um bloco de código que será executado independentemente de ocorrer ou não uma exceção
+
+for:        Para criar um loop for
+
+from:       Para importar partes específicas de um módulo
+
+global:     Para declarar uma variável global
+
+if:         Para fazer uma declaração condicional
+
+import:     Para importar um módulo
+
+in:         Para verificar se um valor está presente em uma lista, tupla, etc.
+
+is:         Para testar se duas variáveis são iguais
+
+lambda:     Para criar uma função anônima (lambda)
+
+None:       Representa um valor nulo
+
+nonlocal:   Para declarar uma variável não local
+
+not:        Um operador lógico
+
+or:         Um operador lógico
+
+pass:       Uma declaração nula, uma instrução que não fará nada
+
+raise:      Para levantar uma exceção
+
+return:     Para sair de uma função e retornar um valor
+
+True:       Valor booleano, resultado de operações de comparação
+
+try:        Para criar uma declaração try...except
+
+while:      Para criar um loop while
+
+with:       Usado para simplificar o tratamento de exceções
+
+yield:      Para retornar uma lista de valores de um gerador
