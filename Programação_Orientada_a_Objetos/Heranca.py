@@ -17,12 +17,13 @@ class Pessoa(object):
 
     def __str__(self) -> str:
         return f'Nome: {self.nome}\nIdade: {self.idade} anos\nCPF: {self.cpf}'
-    
+
+#------------------ Class Universidade ------------------
 class Universidade(object):
     def __init__(self, nome:str):
         self.nome = nome
-        
-    
+
+#------------------ Class Estudante ------------------
 class Estudante(Pessoa):
     
     def __init__(self, nome:str,idade: int, cpf: str, universidade: Universidade):
@@ -33,7 +34,9 @@ class Estudante(Pessoa):
 #------------------ Objetos ------------------
 usp = Universidade(nome='Universidade de São Paulo')
 miqueias = Estudante(nome='Miqueias Lopes', idade=20, cpf='123', universidade=usp)
+joao = Estudante(nome='Joao vitor', idade=19, cpf='321', universidade=usp)
 
 #------------------ Manipulação ------------------
 print(miqueias)
+print(joao.nome)
 print(miqueias.universidade.nome)
